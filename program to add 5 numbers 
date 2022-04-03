@@ -1,0 +1,15 @@
+//program to add 5 numbers
+#include<stdio.h>
+
+int main()
+{
+    int a=5;
+    int b=4;
+    int c=3;
+    int d=2;
+    int e=1;
+    int sum;
+    sum=a+b+c+d+e;
+    printf("sum of five numbers is %d",sum);
+    return 0;
+}

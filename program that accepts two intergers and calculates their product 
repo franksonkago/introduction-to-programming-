@@ -1,0 +1,16 @@
+//program that accepts two intergers and calculates their product
+#include<stdio.h>
+
+int main()
+{
+int s;
+int t;
+int u;
+printf("Enter first integer\n");
+scanf("%d",&s);
+printf("Enter second integer\n");
+scanf("%d",&t);
+u=s*t;
+printf("product is %d",u);
+    return 0;
+}
